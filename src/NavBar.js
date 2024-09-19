@@ -3,7 +3,6 @@ import './App.css'
 import {data} from './Data.js';
 import {Link} from 'react-router-dom';
 import Dropdown from './Dropdown';
-import Login from './Login';
 import HomeArticles from './HomeArticles.js';
 import HomeFooter from './HomeFooter.js';
 

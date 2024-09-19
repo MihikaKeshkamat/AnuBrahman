@@ -1,29 +1,29 @@
 import React,{useState,useEffect,useRef}  from 'react'
 import {data} from './Data'
 import {Link} from 'react-router-dom';
-import Dropdown from './Dropdown';
+
 import './App.css'
 const PagesNav = () => {
-        const [showDropdown, setShowDropdown] = useState(false);
+        // const [showDropdown, setShowDropdown] = useState(false);
         const[click,setClick]= useState(false);
-        const[dropdown,setDropdown] = useState(false)
+        // const[dropdown,setDropdown] = useState(false)
         const handleClick = () => setClick(!click);
         const closeMobileMenu =() => setClick(false);
     
-        const onMouseEnter = () => {
-            if(window.innerWidth<960){
-                setDropdown(false)
-            }else{
-                setDropdown(true)
-            }
-        }; 
-        const onMouseLeave = () => {
-            if(window.innerWidth<960){
-                setDropdown(false)
-            }else{
-                setDropdown(false)
-            }
-        }; 
+        // const onMouseEnter = () => {
+        //     if(window.innerWidth<960){
+        //         setDropdown(false)
+        //     }else{
+        //         setDropdown(true)
+        //     }
+        // }; 
+        // const onMouseLeave = () => {
+        //     if(window.innerWidth<960){
+        //         setDropdown(false)
+        //     }else{
+        //         setDropdown(false)
+        //     }
+        // }; 
         const [searchTerm, setSearchTerm] = useState(""); // User input for search
         const [suggestions, setSuggestions] = useState([]); // Holds the suggestions
         const [showSuggestions, setShowSuggestions] = useState(false); // Controls the dropdown visibility
@@ -97,8 +97,9 @@ const PagesNav = () => {
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
             <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-                <li className='about-nav-item' onMouseEnter={()=> setShowDropdown(true)}
-                onMouseLeave={()=> setShowDropdown(false)}> Case Studies <i className='fa fa-caret-down' />
+                <li className='about-nav-item' > Case Studies <i className='fa fa-caret-down' />
+                {/* onMouseEnter={()=> setShowDropdown(true)}
+                onMouseLeave={()=> setShowDropdown(false)} */}
                 {/* {showDropdown && (
                 <ul className="about-dropdown-menu">
                     <li>

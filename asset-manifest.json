@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.daaeaebd.css",
-    "main.js": "/static/js/main.80a515ba.js",
-    "static/media/BlackHole.PNG": "/static/media/BlackHole.0f7ac4e8787bb581c365.PNG",
-    "static/media/OrbitalMechanics.PNG": "/static/media/OrbitalMechanics.74badf2257d6fa3318d9.PNG",
-    "static/media/QuantumEntanglement.PNG": "/static/media/QuantumEntanglement.dc55b30b019f4bf9a936.PNG",
-    "static/media/MercuryVortex.PNG": "/static/media/MercuryVortex.4f0b02d65f7a6e6243e1.PNG",
-    "index.html": "/index.html",
-    "main.daaeaebd.css.map": "/static/css/main.daaeaebd.css.map",
-    "main.80a515ba.js.map": "/static/js/main.80a515ba.js.map"
+    "main.css": "/AnuBrahman/static/css/main.daaeaebd.css",
+    "main.js": "/AnuBrahman/static/js/main.0f9de859.js",
+    "static/media/BlackHole.PNG": "/AnuBrahman/static/media/BlackHole.0f7ac4e8787bb581c365.PNG",
+    "static/media/OrbitalMechanics.PNG": "/AnuBrahman/static/media/OrbitalMechanics.74badf2257d6fa3318d9.PNG",
+    "static/media/QuantumEntanglement.PNG": "/AnuBrahman/static/media/QuantumEntanglement.dc55b30b019f4bf9a936.PNG",
+    "static/media/MercuryVortex.PNG": "/AnuBrahman/static/media/MercuryVortex.4f0b02d65f7a6e6243e1.PNG",
+    "index.html": "/AnuBrahman/index.html",
+    "main.daaeaebd.css.map": "/AnuBrahman/static/css/main.daaeaebd.css.map",
+    "main.0f9de859.js.map": "/AnuBrahman/static/js/main.0f9de859.js.map"
   },
   "entrypoints": [
     "static/css/main.daaeaebd.css",
-    "static/js/main.80a515ba.js"
+    "static/js/main.0f9de859.js"
   ]
 }
